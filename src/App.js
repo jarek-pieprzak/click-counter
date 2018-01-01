@@ -20,6 +20,7 @@ class App extends Component {
   render() {
     return (
       <div>
+      <h1>test</h1>
         <h1>{this.state.counter}</h1>
         <button onClick={this.decHandler()}>-</button>
         <button onClick={this.incHandler()}>+</button>
